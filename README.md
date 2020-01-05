@@ -11,12 +11,12 @@ This project is created using [Create React App](https://github.com/facebook/cre
 2. Lodash (can be ignored)
 
 ### `Component Heirarchy`
--->ToDoController (Parent Component which consist of states - 1.Sort-by 2.Tab View 3.Task List)
-   |
-   -->HeaderView (Uncontrolled which consist of state- 1.Create Dialog Open)
-      |-->CreateDialogView (Dialog Component which will be accept the New to-do information)
-   |
-   -->CardListView (Controlled Component which will be displaying To-do information on card)
+-->ToDoController (Parent Component which consist of states - 1.Sort-by 2.Tab View 3.Task List)<br/>
+   |<br/>
+   -->HeaderView (Uncontrolled which consist of state- 1.Create Dialog Open)<br/>
+      |-->CreateDialogView (Dialog Component which will be accept the New to-do information)<br/>
+   |<br/>
+   -->CardListView (Controlled Component which will be displaying To-do information on card)<br/>
    
 ### `Improvements can be made`
 1. Code can be structured to Flux or Redux.

@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.headerView {
+  position: static;
+  display: block;
+  height: 70px;
+  width: calc(100% - 40px);
+  padding: 20px;
+  background-color: #e3f2fd;
+  white-space: nowrap; 
+}
+
+.headerView:after { 
+  content: ''; 
+  display: inline-block; 
+  height: 100%; 
+  vertical-align: middle;
+  width: 0;
+}
+
+.sortBy , .tabView{
+  display: inline-block !important; 
+  vertical-align: middle !important; 
+  white-space: normal; 
+  float: right;
+}
+
+.createButton{
+  display: inline-block; 
+  vertical-align: middle; 
+  white-space: normal; 
+}
+
+.cardListView {
+  padding: 20px;
+}
+
+.taskInfo{
+  display: block !important;
+}
+
+.MuiCard-root{
+  margin: 5px !important;
+  display: inline-block !important;
+}
+
+.MuiCardActions-root {
+  border-top: 1px solid mediumvioletred;
+}
+
+.MuiPaper-outlined {
+  border: 1px solid mediumvioletred !important;
+}
